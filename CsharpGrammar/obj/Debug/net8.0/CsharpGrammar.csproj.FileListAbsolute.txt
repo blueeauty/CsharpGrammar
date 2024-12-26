@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\CsharpGrammar\CsharpGrammar\bin\Debug\net8.0\CsharpGrammar.exe
+C:\Users\Administrator\Desktop\CsharpGrammar\CsharpGrammar\bin\Debug\net8.0\CsharpGrammar.deps.json
+C:\Users\Administrator\Desktop\CsharpGrammar\CsharpGrammar\bin\Debug\net8.0\CsharpGrammar.runtimeconfig.json
+C:\Users\Administrator\Desktop\CsharpGrammar\CsharpGrammar\bin\Debug\net8.0\CsharpGrammar.dll
+C:\Users\Administrator\Desktop\CsharpGrammar\CsharpGrammar\bin\Debug\net8.0\CsharpGrammar.pdb
+C:\Users\Administrator\Desktop\CsharpGrammar\CsharpGrammar\obj\Debug\net8.0\CsharpGrammar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\CsharpGrammar\CsharpGrammar\obj\Debug\net8.0\CsharpGrammar.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\CsharpGrammar\CsharpGrammar\obj\Debug\net8.0\CsharpGrammar.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\CsharpGrammar\CsharpGrammar\obj\Debug\net8.0\CsharpGrammar.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\CsharpGrammar\CsharpGrammar\obj\Debug\net8.0\CsharpGrammar.dll
+C:\Users\Administrator\Desktop\CsharpGrammar\CsharpGrammar\obj\Debug\net8.0\refint\CsharpGrammar.dll
+C:\Users\Administrator\Desktop\CsharpGrammar\CsharpGrammar\obj\Debug\net8.0\CsharpGrammar.pdb
+C:\Users\Administrator\Desktop\CsharpGrammar\CsharpGrammar\obj\Debug\net8.0\CsharpGrammar.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\CsharpGrammar\CsharpGrammar\obj\Debug\net8.0\ref\CsharpGrammar.dll
