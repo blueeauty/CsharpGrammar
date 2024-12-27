@@ -14,9 +14,9 @@
 /// </summary>
 /// <param name="str">The string.</param>
 /// <returns></returns>
-int ss = 2321;
+string safda = "adfafa";
 
-string sss = "afsda";
+int sda = 234;
 #endregion
 
 #region Csharp1.2
