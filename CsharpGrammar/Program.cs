@@ -16,6 +16,7 @@
 /// <returns></returns>
 string ss = "1";
 
+string sss = "afsda";
 #endregion
 
 #region Csharp1.2
