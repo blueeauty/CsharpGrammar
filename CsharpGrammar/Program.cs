@@ -14,8 +14,8 @@
 /// </summary>
 /// <param name="str">The string.</param>
 /// <returns></returns>
-string safda = "12341234";
-string ad = "dafd";
+int adsfa = 321;
+
 int sda = 234;
 #endregion
 
