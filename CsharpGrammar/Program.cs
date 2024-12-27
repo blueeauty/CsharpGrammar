@@ -14,14 +14,8 @@
 /// </summary>
 /// <param name="str">The string.</param>
 /// <returns></returns>
-string Test(string str)
-{
-    string r = "1";
-    return string.Empty;
-}
-//修改了一个
-//做个修改！！！！
-//增加1
+
+
 #endregion
 
 #region Csharp1.2
