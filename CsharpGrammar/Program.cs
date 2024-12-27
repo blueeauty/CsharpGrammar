@@ -14,7 +14,7 @@
 /// </summary>
 /// <param name="str">The string.</param>
 /// <returns></returns>
-string ss = "1";
+string ss = "adadfafda  ;  ";
 
 string sss = "afsda";
 
