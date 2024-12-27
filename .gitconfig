@@ -1,0 +1,12 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = blueeauty
+	email = mahabubmastardsaer@gmail.com
+[credential "helperselector"]
+	selected = <no helper>
+[credential]
+	helper = store
