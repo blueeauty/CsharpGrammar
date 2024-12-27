@@ -16,6 +16,7 @@
 /// <returns></returns>
 string Test(string str)
 {
+    string r = "1";
     return string.Empty;
 }
 //修改了一个
