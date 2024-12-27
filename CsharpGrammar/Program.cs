@@ -20,6 +20,7 @@ string Test(string str)
 }
 //修改了一个
 //做个修改！！！！
+//增加1
 #endregion
 
 #region Csharp1.2
