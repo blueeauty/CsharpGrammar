@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Redmi\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939\\cs\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\CsharpGrammar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CFF4AA1-4335-4916-9337-CF89B670C49C}|CsharpGrammar\\CsharpGrammar.csproj|c:\\users\\redmi\\desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939\\cs\\csharpgrammar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9CFF4AA1-4335-4916-9337-CF89B670C49C}|CsharpGrammar\\CsharpGrammar.csproj|c:\\users\\administrator\\desktop\\csharpgrammar\\csharpgrammar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CFF4AA1-4335-4916-9337-CF89B670C49C}|CsharpGrammar\\CsharpGrammar.csproj|solutionrelative:csharpgrammar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CFF4AA1-4335-4916-9337-CF89B670C49C}|CsharpGrammar\\CsharpGrammar.csproj|c:\\users\\redmi\\desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939\\cs\\csharpgrammar\\csharpgrammar.licenseheader||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{9CFF4AA1-4335-4916-9337-CF89B670C49C}|CsharpGrammar\\CsharpGrammar.csproj|C:\\Users\\Administrator\\Desktop\\CsharpGrammar\\csharpgrammar\\csharpgrammar.licenseheader||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{9CFF4AA1-4335-4916-9337-CF89B670C49C}|CsharpGrammar\\CsharpGrammar.csproj|solutionrelative:csharpgrammar\\csharpgrammar.licenseheader||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CsharpGrammar.licenseheader",
-              "DocumentMoniker": "C:\\Users\\Redmi\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939\\cs\\CsharpGrammar\\CsharpGrammar.licenseheader",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CsharpGrammar\\CsharpGrammar\\CsharpGrammar.licenseheader",
               "RelativeDocumentMoniker": "CsharpGrammar\\CsharpGrammar.licenseheader",
-              "ToolTip": "C:\\Users\\Redmi\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939\\cs\\CsharpGrammar\\CsharpGrammar.licenseheader",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CsharpGrammar\\CsharpGrammar\\CsharpGrammar.licenseheader",
               "RelativeToolTip": "CsharpGrammar\\CsharpGrammar.licenseheader",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -36,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Redmi\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939\\cs\\CsharpGrammar\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\CsharpGrammar\\CsharpGrammar\\Program.cs",
               "RelativeDocumentMoniker": "CsharpGrammar\\Program.cs",
-              "ToolTip": "C:\\Users\\Redmi\\Desktop\\\u65B0\u5EFA\u6587\u4EF6\u5939\\cs\\CsharpGrammar\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\CsharpGrammar\\CsharpGrammar\\Program.cs",
               "RelativeToolTip": "CsharpGrammar\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-26T02:20:18.062Z",
               "EditorCaption": ""

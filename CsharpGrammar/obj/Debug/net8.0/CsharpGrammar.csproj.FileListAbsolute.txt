@@ -12,3 +12,4 @@ C:\Users\Administrator\Desktop\CsharpGrammar\CsharpGrammar\obj\Debug\net8.0\refi
 C:\Users\Administrator\Desktop\CsharpGrammar\CsharpGrammar\obj\Debug\net8.0\CsharpGrammar.pdb
 C:\Users\Administrator\Desktop\CsharpGrammar\CsharpGrammar\obj\Debug\net8.0\CsharpGrammar.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\CsharpGrammar\CsharpGrammar\obj\Debug\net8.0\ref\CsharpGrammar.dll
+C:\Users\Administrator\Desktop\CsharpGrammar\CsharpGrammar\obj\Debug\net8.0\CsharpGrammar.sourcelink.json
