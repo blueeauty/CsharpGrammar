@@ -7,20 +7,41 @@
 * Author: 	Administrator
 * CreateTime:	2024/12/26 14:13
 ************************************************/
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("asdfadf");
+    }
+
+}
 
 #region Csharp1.0
-/// <summary>
-/// Tests the specified string.
-/// </summary>
-/// <param name="str">The string.</param>
-/// <returns></returns>
 
-int adsfa = 321;
+#region Classes
+class Person {
+    public required string Name { get; set; }
+    public int Id { get; set; }
+}
+
+class Student : Person 
+{
+    Person Person=new Person() { Name="Father"};
+    /// <summary>构造函数</summary>
+    Student()
+    {
+
+    }
+    /// <summary>
+    /// 带参构造
+    /// </summary>
+    /// <param name="person">The person.</param>
+    Student(Person person)=>Person=person;
+
+}
 
 
-int ss = 9999;
-
-string sss = "afsda";
+#endregion
 
 #endregion
 
