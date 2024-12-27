@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Redmi\\Desktop\\新建文件夹\\cs\\CsharpGrammar\\CsharpGrammar.csproj": {}
+    "C:\\Users\\Redmi\\Desktop\\cs\\CsharpGrammar\\CsharpGrammar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Redmi\\Desktop\\新建文件夹\\cs\\CsharpGrammar\\CsharpGrammar.csproj": {
+    "C:\\Users\\Redmi\\Desktop\\cs\\CsharpGrammar\\CsharpGrammar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Redmi\\Desktop\\新建文件夹\\cs\\CsharpGrammar\\CsharpGrammar.csproj",
+        "projectUniqueName": "C:\\Users\\Redmi\\Desktop\\cs\\CsharpGrammar\\CsharpGrammar.csproj",
         "projectName": "CsharpGrammar",
-        "projectPath": "C:\\Users\\Redmi\\Desktop\\新建文件夹\\cs\\CsharpGrammar\\CsharpGrammar.csproj",
+        "projectPath": "C:\\Users\\Redmi\\Desktop\\cs\\CsharpGrammar\\CsharpGrammar.csproj",
         "packagesPath": "C:\\Users\\Redmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Redmi\\Desktop\\新建文件夹\\cs\\CsharpGrammar\\obj\\",
+        "outputPath": "C:\\Users\\Redmi\\Desktop\\cs\\CsharpGrammar\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\vshc\\NuGetPackages"
