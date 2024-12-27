@@ -9,15 +9,24 @@
 ************************************************/
 class Program
 {
+    public static Person Person=new  Person() { Name = "Father", Id=11 };
+    public static void ChangePerson(Person person)
+    {
+        person.Name = "sadafafd";
+    }
     static void Main(string[] args)
     {
-        Console.WriteLine("asdfadf");
+        Console.WriteLine(Person.Name);
+        ChangePerson(Person);
+        Console.WriteLine(Person.Name);
     }
 
 }
 
 #region Csharp1.0
-
+/// <summary>
+/// C# 1.0 特性
+/// </summary>
 #region Classes
 class Person {
     public required string Name { get; set; }
@@ -39,6 +48,7 @@ class Student : Person
     Student(Person person)=>Person=person;
 
 }
+
 
 
 #endregion

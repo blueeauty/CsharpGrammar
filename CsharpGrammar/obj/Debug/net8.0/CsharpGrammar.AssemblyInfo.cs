@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CsharpGrammar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79f4eb3d4c398321e16c7c778c769948bf1c10eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f139f55f71146a230c8f175374ada4872c178880")]
 [assembly: System.Reflection.AssemblyProductAttribute("CsharpGrammar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CsharpGrammar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
