@@ -16,4 +16,27 @@ The Lexical processing of a C# compilation unit consists of reducing the file in
 Line terminators,white space,and comments can serve to separate tokens,and pre-processing directives can cause sections of the compilation unit to be skipped,
 but otherwise these lexical elements have no impact on the syntactic structure of a C# program
 
+Line terminators divide the characters of a C# compilation unit into lines
+Two forms of comments are supported: delimited comments and single-line comments
+White space is defined as any character with Unicode class Zs(which includes the space character)as well as the horizontal tab character,the vertical tab character,and the form feed character
 
+There are several kinds of tokens:identifiers,keywords,literals,operator,and punctuator.
+
+Note that since Unicode escapes are not permitted in keywords,the token "cl\u0061ss" is an identifier,and is the same identifier as "@class"
+
+The rules keyword and contextual_keyword are parser rules as they do not introduce new token kinds.ALl keywords and contextual keywords are defined by implicit lexical rules as the occur as literal strings int the grammar
+
+Integer literals are used to write values of types int,uint,long,and ulong. Integer literals have three possible forms:decimal,hexadecimal,and binary
+If the literal has no suffix,it has the first of these types in which its value can be represented: int,uint,long,ulong.(trailing is allowed to interpolate in the middle of literal)
+1_2_3_4
+
+Real literals are used to write values of types float,double,and decimal.
+A character literal represents a single character,and consists of a character in quotes,as in 'a'.
+Note: A character that follows a backslash character(\) in a Character must be one of the following characters:',",\,0,a,b,f,n,r,t,u,U,x,v.Otherwisr,a compile-time error occurs.
+In particular,simple escape sequences,and hexadecimal and Unicode escape sequences are not processed in verbatim string literals.(prefix @ show no escape character)
+
+Each string literal does not necessarily result in a new string instance.When two or more string literals that are equivalent according to the string equality operator appear in the same assembly,
+these string literals refer to the same string instance.
+A null_literal represents a null value.It does not have a type,but can be converted to any reference type or nullable value type through a null literal conversion.
+
+Conditional compilation directives can nest

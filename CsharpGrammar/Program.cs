@@ -7,21 +7,56 @@
 * Author: 	Administrator
 * CreateTime:	2024/12/26 14:13
 ************************************************/
+#define A
+#undef B
+#define Debug
+//#define Retail
+#if Debug && Retail
+#error A Build can't be both debug and retail
+#endif
+
+class C
+{
+#if A
+    void f() { }
+#else
+#endif
+#if B
+    void I() { }
+#else
+#endif
+}
+
 class Program
 {
-    public static Person Person=new  Person() { Name = "Father", Id=11 };
-    public static void ChangePerson(Person person)
-    {
-        person.Name = "sadafafd";
-    }
+    @class Cla =new @class();
     static void Main(string[] args)
     {
-        Console.WriteLine(Person.Name);
-        ChangePerson(Person);
-        Console.WriteLine(Person.Name);
+        var aaa = 1_3_23_1;
+        string str = @"666
+            777
+            888";
+        Console.WriteLine(str);
+        @class.@void(true);
+        
     }
 
 }
+
+#region 词法和句法分析(Lexical grammar and Syntactic grammar)
+class @class
+{
+    public static void @void(bool @bool)
+    {
+        char c = '\u0066';
+        if (@bool)
+        {
+            System.Console.WriteLine(c.ToString());
+        }
+    }
+}
+#endregion
+
 
 #region Csharp1.0
 /// <summary>
