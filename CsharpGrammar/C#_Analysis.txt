@@ -1,0 +1,19 @@
+﻿Compilation Process:
+1、Transformation:	a particular character and encoding scheme =>	a sequence of Unicode Characters
+2、Lexical analysis:	a stream of Unicode input characters =>		a stream of tokens
+3、Syntactic analysis:	the stream of tokens =>	executable code
+
+Lexical grammar and Syntactic grammar
+
+Five basic elements make up the lexical structure of a C# compilation unit:
+1、Line terminators
+2、White space
+3、Comment
+4、Tokens
+5、Pre-processing directives
+
+The Lexical processing of a C# compilation unit consists of reducing the file into a sequence of tokens that becomes the input to the syntactic analysis
+Line terminators,white space,and comments can serve to separate tokens,and pre-processing directives can cause sections of the compilation unit to be skipped,
+but otherwise these lexical elements have no impact on the syntactic structure of a C# program
+
+
