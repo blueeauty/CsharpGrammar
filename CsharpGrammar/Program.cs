@@ -7,6 +7,9 @@
 * Author: 	Administrator
 * CreateTime:	2024/12/26 14:13
 ************************************************/
+#pragma warning disable CS0168  //Disabling "variable declared but never used"
+//#pragma warning disable //All warnings are suppressed here
+//#pragma checksum "file.cs" "{GUID}" "hash"
 #define A
 #undef B
 #define Debug
@@ -14,7 +17,8 @@
 #if Debug && Retail
 #error A Build can't be both debug and retail
 #endif
-
+#line 133
+//the next line will be treated as line 133
 class C
 {
 #if A
@@ -26,17 +30,16 @@ class C
 #else
 #endif
 }
-
 class Program
 {
     @class Cla =new @class();
     static void Main(string[] args)
     {
-        var aaa = 1_3_23_1;
-        string str = @"666
-            777
-            888";
-        Console.WriteLine(str);
+        var aaa = 0x1_2;
+        int asd;
+        #nullable disable
+        string str = null;
+        Console.WriteLine( str is null);
         @class.@void(true);
         
     }

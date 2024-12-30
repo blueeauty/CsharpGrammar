@@ -39,4 +39,8 @@ Each string literal does not necessarily result in a new string instance.When tw
 these string literals refer to the same string instance.
 A null_literal represents a null value.It does not have a type,but can be converted to any reference type or nullable value type through a null literal conversion.
 
-Conditional compilation directives can nest
+Conditional compilation directives can nest.
+
+Line directives may be used to alter the line numbers and compilation unit names that are reported by the compiler in output such as warnings and errors.These values are also used by caller-info attributes
+
+The #pragma preprocessing directive is used to specify contextual information to a compiler.
