@@ -44,6 +44,17 @@ class Program
         
     }
 
+    static int Main()
+    {
+        var aaa = 0x1_2;
+        int asd;
+        #nullable disable
+        string str = null;
+        Console.WriteLine(false);
+        @class.@void(true);
+        return 1;
+    }
+
 }
 
 #region 词法和句法分析(Lexical grammar and Syntactic grammar)
