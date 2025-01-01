@@ -64,6 +64,7 @@ the value of the int returned serves as the application's termination status cod
 The purpose of this code is to allow communication of success or failure to the execution environment.
 If the return type of the effective entry point method is void and execution completes without resulting in an exception,the termination status code is 0.
 
-
+The .NET Framework implementation makes every reasonable effort to call finalizers for all of its objects that have not yet been garbage collected,unless such cleanup has been suppressed
+(by a call to the library method GC.SuppressFinalize)
 
 
