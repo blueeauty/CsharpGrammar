@@ -55,3 +55,15 @@ A program compilied as an application shall contain at least one method qualifyi
 6、The return type shall be void,int,System.Threading.Tasks.Task,or System.Threading.Tasks.Task<int>.
 7、It shall not be a partial method without an implementation.
 8、The parameter list shall either be empty,or have a single value parameter of type string[].
+
+On systems supporting a command line,applicaiton parameters correspond to what are generally known as command-line arguments.
+Application termination returns control to the execution environment.
+
+If the return type of the application's effective entry point method is int and execution completes without resulting in an exception,
+the value of the int returned serves as the application's termination status code.
+The purpose of this code is to allow communication of success or failure to the execution environment.
+If the return type of the effective entry point method is void and execution completes without resulting in an exception,the termination status code is 0.
+
+
+
+
