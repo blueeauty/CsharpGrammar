@@ -41,19 +41,24 @@ class Program
         string str = null;
         Console.WriteLine( str is null);
         @class.@void(true);
-        
+
+        //if (true)
+        //{
+        //    int sss = 0;
+        //}
+        //int sss = 1;
     }
 
-    static int Main()
-    {
-        var aaa = 0x1_2;
-        int asd;
-        #nullable disable
-        string str = null;
-        Console.WriteLine(false);
-        @class.@void(true);
-        return 1;
-    }
+    //static int Main()
+    //{
+    //    var aaa = 0x1_2;
+    //    int asd;
+    //    #nullable disable
+    //    string str = null;
+    //    Console.WriteLine(false);
+    //    @class.@void(true);
+    //    return 1;
+    //}
 
 }
 
