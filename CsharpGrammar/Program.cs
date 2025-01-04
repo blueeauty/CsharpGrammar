@@ -32,6 +32,19 @@ using System.Xml.Linq;
 using static System.Math;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 //the next line will be treated as line 133
+int asdfg = 111;
+class A 
+{
+    public static int X;
+    internal static int Y;
+    private static int Z;
+    //Finalizer
+    ~A()
+    {
+        //Cleanup code
+    }
+}
+
 class C
 {
 #if A
@@ -43,7 +56,11 @@ class C
 #else
 #endif
 }
-class Program
+
+namespace asd{
+
+}
+partial class Program
 {
     @class Cla = new @class();
     static void Main(string[] args)
@@ -54,7 +71,6 @@ class Program
         string str = null;
         Console.WriteLine(str is null);
         @class.@void(true);
-
         //if (true)
         //{
         //    int sss = 0;
@@ -74,7 +90,7 @@ class Program
     //}
 }
 
-﻿
+
 
 //class Program;
 
@@ -202,6 +218,14 @@ class @class
         {
             System.Console.WriteLine(c.ToString());
         }
+    }
+}
+
+class Derived : @class
+{
+    public static new void @void(bool @bool)
+    {
+
     }
 }
 #endregion
