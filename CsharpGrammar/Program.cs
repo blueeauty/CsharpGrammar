@@ -32,7 +32,7 @@ using System.Xml.Linq;
 using static System.Math;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 //the next line will be treated as line 133
-int asdfg = 111;
+//int asdfg = 111;
 class A 
 {
     public static int X;
@@ -42,6 +42,20 @@ class A
     ~A()
     {
         //Cleanup code
+        Console.WriteLine("Finalize instance of A");
+    }
+}
+
+class B
+{
+    object Ref;
+    public B(object o)
+    {
+        Ref = o;
+    }
+    ~B()
+    {
+        Console.WriteLine("Finalize instance of B");
     }
 }
 
@@ -57,20 +71,26 @@ class C
 #endif
 }
 
-namespace asd{
+//namespace asd{
 
-}
-partial class Program
+//}
+class Program
 {
     @class Cla = new @class();
     static void Main(string[] args)
     {
         var aaa = 0x1_2;
         int asd;
+        int bbb=new int();
+        int ccc=default(int);
 #nullable disable
         string str = null;
         Console.WriteLine(str is null);
         @class.@void(true);
+        B b = new B(new A());
+        b = null;
+        GC.Collect();
+        GC.WaitForPendingFinalizers();
         //if (true)
         //{
         //    int sss = 0;
@@ -831,15 +851,15 @@ public class cs8
 public class usin
 {
 
-    static void Main()
-    {
-        using (StreamReader reader = new StreamReader("example.txt"))
-        {
+    //static void Main()
+    //{
+    //    using (StreamReader reader = new StreamReader("example.txt"))
+    //    {
 
-            string content = reader.ReadToEnd();
-            Console.WriteLine(content);
-        } // 在这里，reader.Dispose() 会被自动调用
-    }
+    //        string content = reader.ReadToEnd();
+    //        Console.WriteLine(content);
+    //    } // 在这里，reader.Dispose() 会被自动调用
+    //}
 }
 #endregion
 
@@ -874,17 +894,17 @@ class Program2
         myStruct.Value = 100;
     }
 
-    static void Main()
-    {
-        MyStruct myStruct = new MyStruct();
-        myStruct.Value = 50;
+    //static void Main()
+    //{
+    //    MyStruct myStruct = new MyStruct();
+    //    myStruct.Value = 50;
 
-        Console.WriteLine("Before: " + myStruct.Value); // 输出: Before: 50
+    //    Console.WriteLine("Before: " + myStruct.Value); // 输出: Before: 50
 
-        ModifyStruct(ref myStruct);
+    //    ModifyStruct(ref myStruct);
 
-        Console.WriteLine("After: " + myStruct.Value); // 输出: After: 100
-    }
+    //    Console.WriteLine("After: " + myStruct.Value); // 输出: After: 100
+    //}
 }
 #endregion
 
@@ -907,13 +927,13 @@ public class AsyncStreamExample
         }
     }
 
-    static async Task Main()
-    {
-        await foreach (var number in AsyncStreamExample.RangeAsync(0, 10, 500))
-        {
-            Console.WriteLine(number);
-        }
-    }
+    //static async Task Main()
+    //{
+    //    await foreach (var number in AsyncStreamExample.RangeAsync(0, 10, 500))
+    //    {
+    //        Console.WriteLine(number);
+    //    }
+    //}
 }
 
 
@@ -957,15 +977,15 @@ public class Cs9
     #region 记录 record引用和 值 record struct ；不可变，只读,需要可变属性使用init，可在初始化时设置。可重写ToString、Equals、GetHashCode
     public record Person(string FirstName, string LastName, int Age);
     public string FirstName { get; init; }
-    public static void Main()
-    {
-        Person person1 = new Person("John", "Doe", 30);
-        Person person2 = new Person("John", "Doe", 30);
+    //public static void Main()
+    //{
+    //    Person person1 = new Person("John", "Doe", 30);
+    //    Person person2 = new Person("John", "Doe", 30);
 
-        Console.WriteLine(person1 == person2); // 输出: True
-        Console.WriteLine(person1.GetHashCode() == person2.GetHashCode()); // 输出: True
-        Console.WriteLine(person1); // 输出: Person { FirstName = John, LastName = Doe, Age = 30 }
-    }
+    //    Console.WriteLine(person1 == person2); // 输出: True
+    //    Console.WriteLine(person1.GetHashCode() == person2.GetHashCode()); // 输出: True
+    //    Console.WriteLine(person1); // 输出: Person { FirstName = John, LastName = Doe, Age = 30 }
+    //}
 
 
     #endregion

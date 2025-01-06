@@ -90,3 +90,43 @@ The characteristics of the two types of hiding are described in the following su
 
 When a name in an inner scope hides a name in an outer scope,
 it hides all overloaded occurrences of that name.
+
+C# employs automatic memory management,which frees developers from manually allocating
+and freeing the memory occupied by objects.Automatic memory management policies are
+implemented by a garbage collector.
+1、When the object is created,memory is allocated for it,the constructor is run,
+and the object is considered live.
+2、If neither the object nor any of its instance fields can be accessed by any possible
+continuation of execution,other than the running of finalizers,the object is considered
+no longer in use and it becomes eligible for finalization.
+3、Once the object is eligible for finalization,at some unspecified later time the
+finalizer(if any) for the object is run.Under normal circumstances the finalizer for
+the object is run once only,though implementation-defined APIs may allow this behavior
+to be overridden.
+4、Once the finalizer for an object is run,if neither the object nor any of its instance
+fields can be accessed by any possible continuation of execution,including the running of 
+finalizers,the object is considered inaccessible and the object becomes eligible for collection.
+5、Finally,at some time after the object becomes eligible for collection, the garbage collector
+fress the memory associated with that object.
+
+The types of the C# language are divided into two main categories:reference types and value types.
+Both value types and reference types may be generic types.
+
+System.Object	The ultimate base class of all other types
+System.String	The string type of the C# language
+System.ValueType	The base class of all value types
+System.Enum		The base class of enum types
+System.Array	The base class of all array types
+System.Delegate		The base class of all delegate types
+System.Exception	The base class of all exception types
+
+The closest equivalent of a delegate in C or C++ is a function pointer,but whereas a function pointer can 
+only reference static functions,a delegate can reference both static and instance methods.
+In the latter case,the delegate stores not only reference to the method's entry point,
+but also a reference to the object instance on which to invoke the method.
+
+All value types implicitly declare a public parameterless instance constructor called the default constructor.
+The default constructor returns a zero-initialized instance known as the default value for the value type.
+
+All signed integral types are represented using two's complement format.
+
